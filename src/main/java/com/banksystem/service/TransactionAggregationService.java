@@ -13,7 +13,6 @@ public class TransactionAggregationService {
 
     /**
      * Process a transaction
-     *
      * @param accountNumber the account number the transaction relates to
      * @param transactionAmount the amount of the transaction (positive for credits, negative for debits)
      */
