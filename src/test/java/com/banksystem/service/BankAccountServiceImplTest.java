@@ -31,6 +31,7 @@ public class BankAccountServiceImplTest {
     @BeforeEach
     public void init(){
         service = new BankAccountServiceImpl(auditSystem);
+        random = new Random();
     }
     @Test
     public void whenCreditTransactionIsProcessedThenRetrieveBalanceReturnsSameAmount() {
